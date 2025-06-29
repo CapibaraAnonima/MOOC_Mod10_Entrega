@@ -1,0 +1,17 @@
+{
+    "name": "MOOC_html_mod10-PWA_Alejandro_Martinez",
+    "short_name": "MOOC_Mod10",
+    "icons": [
+        {
+        "src": "/assets/img/icon192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+        }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#333333",
+    "theme_color": "#6200ee",
+    "orientation": "portrait"
+
+}

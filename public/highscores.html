@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Shooter : Highscores</title>
+
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="assets/img/icon.png" />
+    <link rel="shortcut icon" href="assets/img/characters/char_01.png" type="image/x-icon">
+
+    <!-- sass compiled -->
+    <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
+    <link href="assets/css/main.css.map" />
+
+    <!-- material icons -->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialdesignicons.css" />
+    <link href="assets/css/materialdesignicons.css.map" />
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="app/libs/swiper.css">
+</head>
+
+<body>
+    <div class="layout single_page highscores">
+        
+        <!-- Título de la página -->
+        <header>
+            <h2>
+                <div class="icon">
+                    <span class="mdi mdi-settings"></span>
+                </div>
+                    <div class="label">High Scores
+                </div>
+                <div class="icon">
+                    <img src="./assets/img/award.png" width="32" height="32" style="margin-left: 20px">
+                </div>
+            </h2>
+        </header>
+
+        <!-- Sección principal de highscores.html -->
+        <main>
+            <section>
+                <h3>High Score</h3>
+                <!-- Fase 6 – Practiquemos Swiper -->
+                <!-- Slider main container -->
+                <div class="swiper big_scores">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide big_score">13123</div>
+                        <div class="swiper-slide big_score">2323</div>
+                        <div class="swiper-slide big_score">543</div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <section>
+                <h3 class="itemsH3">Leaderboard</h3>
+                <div class="leaderboard_items">
+                    <!-- Fase 5 – Animaciones más complejas en highscores.html y game.html -->
+                    <div class="leaderboard_item">
+                        <div class="number">1.</div>
+                        <div class="date">05/01/2021 14:23</div>
+                        <div class="score">3123</div>
+                    </div>
+                    <div class="leaderboard_item">
+                        <div class="number">2.</div>
+                        <div class="date">05/01/2021 14:23</div>
+                        <div class="score">3123</div>
+                    </div>
+                    <div class="leaderboard_item">
+                        <div class="number">3.</div>
+                        <div class="date">05/01/2021 14:23</div>
+                        <div class="score">3123</div>
+                    </div>
+                    <div class="leaderboard_item">
+                        <div class="number">4.</div>
+                        <div class="date">05/01/2021 14:23</div>
+                        <div class="score">3123</div>
+                    </div>
+                    <div class="leaderboard_item">
+                        <div class="number">5.</div>
+                        <div class="date">05/01/2021 14:23</div>
+                        <div class="score">3123</div>
+                    </div>
+                    <div class="leaderboard_item">
+                        <div class="number">6.</div>
+                        <div class="date">05/01/2021 14:23</div>
+                        <div class="score">3123</div>
+                    </div>
+                    <div class="leaderboard_item">
+                        <div class="number">7.</div>
+                        <div class="date">05/01/2021 14:23</div>
+                        <div class="score">3123</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Navegación de highscores.html -->
+        <footer>
+            <a href="index.html" class="btn btn_primary">Volver al menú</a>
+        </footer>
+    </div>
+
+    <!-- libs -->
+    <script src="app/libs/swiper.min.js"></script>
+    <script src="app/libs/anime.min.js"></script>
+
+    <!-- enunciados -->
+    <script src="app/main.js"></script>
+</body>
+
+</html>

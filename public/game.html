@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Shooter : Game</title>
+
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="assets/img/icon.png" />
+    <link rel="shortcut icon" href="assets/img/characters/char_01.png" type="image/x-icon">
+
+    <!-- sass compiled -->
+    <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
+    <link href="assets/css/main.css.map" />
+
+    <!-- material icons 
+    <link type="text/css" rel="stylesheet" href="assets/css/materialdesignicons.css" />
+    <link href="assets/css/materialdesignicons.css.map" />
+    --> 
+</head>
+
+<body>
+    <div class="layout game">
+        
+        <!-- UI del juego -->
+        <header class="ui">
+            <div class="lifes">
+                <span class="amount">1</span>
+                <span class="icon">
+                   <img src="./assets/img/hearth.png" width="24" height="24">
+                </span>
+            </div>
+            <div class="score">
+                <span class="amount">0</span>
+                <span class="icon">
+                    <img src="./assets/img/star.png" width="32" height="32">
+                </span>
+            </div>
+            <div class="pause">
+                <button class="btn btn_link">
+                    <img src="./assets/img/pause.png" width="24" height="24">
+                </button>
+            </div>
+        </header>
+
+
+        <!-- Contenedor del juego -->
+        <section class="game_container">
+            <div class="game_holder">
+                Here comes the gameeee!!
+            </div>
+        </section>
+
+        <!-- Ventana de confirmación del juego -->
+        <section class="modal_window">
+            <div class="overlay"></div>
+            <div class="holder">
+                <div class="message">
+                    If you quit the game, you'll lose all your points.<br />Are
+                    you sure?
+                </div>
+                <div class="cta">
+                    <a class="btn btn_primary" href="index.html">Quit</a>
+                    <button class="btn btn_secondary">Cancelar</button>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+
+    <!-- libs -->
+    <script src="app/libs/swiper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+    <script src="app/libs/anime.min.js" type="text/javascript"></script>
+
+    <!-- game -->
+    <script src="app/Game/Game.js" type="text/javascript"></script>
+    <script src="app/Game/Entity.js" type="text/javascript"></script>
+    <script src="app/Game/Character.js" type="text/javascript"></script>
+    <script src="app/Game/Player.js" type="text/javascript"></script>
+    <script src="app/Game/Opponent.js" type="text/javascript"></script>
+    <script src="app/Game/Shot.js" type="text/javascript"></script>
+    <script src="app/Game/utils.js" type="text/javascript"></script>
+
+    <!-- enunciados -->
+    <script src="app/main.js" type="text/javascript"></script>
+</body>
+
+</html>
