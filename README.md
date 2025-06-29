@@ -26,6 +26,12 @@ Aplicación testeada y funcional en **Google Chrome** *v178.0.72*
 
 ## Url del proyecto
 
-<a src="https://github.com/CapibaraAnonima/MOOC_Mod10_Entrega/tree/main"> Github </a>
+> https://github.com/CapibaraAnonima/MOOC_Mod10_Entrega/tree/main"
 
 PWA no subida a *Glitch* debido a que, según su CEO, cesará sus actividades de hosting a partir del 8 Julio 2025
+
+## Pasos a seguir
+
+1. `npm install en raíz`
+2. `node server.js`
+3. Copiar url: `@localhost:8000` en navegador web
